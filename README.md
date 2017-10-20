@@ -1,4 +1,4 @@
-#Coding With Hedgehogs - WordPress Blog Theme
+# Coding With Hedgehogs - WordPress Blog Theme
 
 The aim of this project is to develop a basic WordPress theme from scratch. The theme must be mobile-friendly. Development must be mobile first, and the end theme must pass Google's Mobile-Friendly test.
 

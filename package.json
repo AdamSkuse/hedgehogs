@@ -1,0 +1,22 @@
+{
+  "name": "hedgehogs",
+  "version": "1.0.0",
+  "description": "The aim of this project is to develop a basic WordPress theme from scratch. The theme must be mobile-friendly. Development must be mobile first, and the end theme must pass Google's Mobile-Friendly test.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdamSkuse/hedgehogs.git"
+  },
+  "author": "Adam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdamSkuse/hedgehogs/issues"
+  },
+  "homepage": "https://github.com/AdamSkuse/hedgehogs#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
