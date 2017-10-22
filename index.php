@@ -1,1 +1,3 @@
-<p>Coding with Hedgehogs</p>
+<?php get_header() ?>
+<p>Body</p>
+<?php get_footer() ?>
