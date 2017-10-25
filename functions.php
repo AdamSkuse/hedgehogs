@@ -25,3 +25,7 @@ function mat_widget_areas() {
 }
 
 add_action( 'widgets_init', 'mat_widget_areas' );
+
+register_nav_menus( array(
+	'footer-menu' => 'Hedgehog Theme Footer Menu',
+) );

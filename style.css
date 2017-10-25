@@ -46,6 +46,19 @@ body {
   clear: right;
 }
 
+#footer-menu {
+	text-align:center;
+}
+
+#footer-menu ul {
+	padding:0px;
+}
+
+#footer-menu li {
+	display:inline-block;
+	padding: 0 8px;
+}
+
 /* Front Page Posts Grid */
 .posts-grid {
   display: grid;
