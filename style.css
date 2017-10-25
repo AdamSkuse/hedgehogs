@@ -10,13 +10,45 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: hedgehogs
 */
 
+* {
+  box-sizing: border-box;
+}
+
 body {
+  font-family: 'Roboto', sans-serif;
   color: #333;
 }
 
+/* Main Column */
+.main-column {
+  width: 66%;
+  float: right;
+}
+
+/* Widgets Column */
+.widgets-column {
+  width: 33%;
+  float: left;
+}
+
+
+
+/* Header */
+.site-header {
+  margin: 10px 20px 10px 20px;
+
+}
+
+/* Footer */
+.site-footer {
+  margin-top: 30px;
+  border-top: 2px solid #999;
+  clear: right;
+}
+
+/* Front Page Posts Grid */
 .posts-grid {
   display: grid;
-  border: 1px solid black;
   grid-template-columns: 250px 20px 250px 20px 250px;
   grid-template-rows: auto 20px auto;
 }
@@ -50,3 +82,5 @@ body {
   grid-column: 5;
   grid-row: 3;
 }
+
+
