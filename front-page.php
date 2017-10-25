@@ -29,6 +29,6 @@
 <p>See all posts ...</p>
 </div>
 <div class="widgets-column">
-<p>widgets</p>
+<?php get_sidebar() ?>
 </div>
 <?php get_footer() ?>
