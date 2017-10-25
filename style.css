@@ -10,6 +10,10 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: hedgehogs
 */
 
+body {
+  color: #333;
+}
+
 .posts-grid {
   display: grid;
   border: 1px solid black;
