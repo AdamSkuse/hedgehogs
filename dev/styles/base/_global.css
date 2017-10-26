@@ -7,10 +7,8 @@ body {
   color: $mainText;
 }
 
-a {
+li {
+  list-style: none;
 }
 
-a:visited {
-color: #ccc;
-}
 

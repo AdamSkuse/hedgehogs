@@ -376,10 +376,8 @@ body {
   font-family: 'Roboto', sans-serif;
   color: #333;
 }
-a {
-}
-a:visited {
-color: #ccc;
+li {
+  list-style: none;
 }
 /* Site Header */
 .site-header {
@@ -391,16 +389,16 @@ color: #ccc;
   border-top: 2px solid #999;
   clear: right;
 }
-#footer-menu {
-	text-align: center;
-}
-#footer-menu ul {
-	padding: 0px;
-}
-#footer-menu li {
-	display: inline-block;
-	padding: 0 8px;
-}
+.site-footer__menu {
+    text-align: center;
+  }
+.site-footer ul {
+    padding: 0px;
+  }
+.site-footer li {
+    display: inline-block;
+    padding: 0 8px;
+  }
 /* Main Column */
 .main-column {
   width: 66%;
