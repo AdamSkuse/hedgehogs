@@ -4,6 +4,13 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  color: #333;
+  color: $mainText;
+}
+
+a {
+}
+
+a:visited {
+color: #ccc;
 }
 
