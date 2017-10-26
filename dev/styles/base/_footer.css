@@ -1,0 +1,20 @@
+/* Site Footer */
+
+.site-footer {
+  margin-top: 30px;
+  border-top: 2px solid #999;
+  clear: right;
+}
+
+#footer-menu {
+	text-align: center;
+}
+
+#footer-menu ul {
+	padding: 0px;
+}
+
+#footer-menu li {
+	display: inline-block;
+	padding: 0 8px;
+}

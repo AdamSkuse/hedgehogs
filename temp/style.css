@@ -375,6 +375,26 @@ body {
   font-family: 'Roboto', sans-serif;
   color: #333;
 }
+/* Site Header */
+.site-header {
+  margin: 10px 20px 10px 20px;
+}
+/* Site Footer */
+.site-footer {
+  margin-top: 30px;
+  border-top: 2px solid #999;
+  clear: right;
+}
+#footer-menu {
+	text-align: center;
+}
+#footer-menu ul {
+	padding: 0px;
+}
+#footer-menu li {
+	display: inline-block;
+	padding: 0 8px;
+}
 /* Main Column */
 .main-column {
   width: 66%;
@@ -384,27 +404,6 @@ body {
 .widgets-column {
   width: 33%;
   float: left;
-}
-/* Header */
-.site-header {
-  margin: 10px 20px 10px 20px;
-
-}
-/* Footer */
-.site-footer {
-  margin-top: 30px;
-  border-top: 2px solid #999;
-  clear: right;
-}
-#footer-menu {
-	text-align:center;
-}
-#footer-menu ul {
-	padding:0px;
-}
-#footer-menu li {
-	display:inline-block;
-	padding: 0 8px;
 }
 /* Front Page Posts Grid */
 .posts-grid {

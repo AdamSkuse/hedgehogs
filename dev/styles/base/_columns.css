@@ -1,0 +1,11 @@
+/* Main Column */
+.main-column {
+  width: 66%;
+  float: right;
+}
+
+/* Widgets Column */
+.widgets-column {
+  width: 33%;
+  float: left;
+}
