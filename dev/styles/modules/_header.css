@@ -1,4 +1,6 @@
 /* Site Header */
 .site-header {
-  margin: 40px 20px 10px 0px;
+  margin: 0;
+  margin-top: 0;
+  background-color: green;
 }

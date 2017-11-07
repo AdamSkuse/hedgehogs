@@ -1,11 +1,15 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: $mainText;
-  padding-left: 20px;
+  background-color: yellow;
 }
 
 li {
   list-style: none;
 }
 
+/* prevent "margin collapsing" from causing a gap between the header and the top of the page */
 
+h1 {
+  margin-top: 0;
+}
