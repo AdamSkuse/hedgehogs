@@ -33,7 +33,12 @@ if (have_posts()) :
   </p>
     <?php the_post_thumbnail('banner-image'); ?> 
     <?php the_content(); ?>
-  </article>
+    <?php if( wp_get_referer() ) {
+      echo '<a href="'. wp_get_referer() . '">BACK</a>';
+      }
+    ?>
+
+ </article>
 
   <?php endwhile;
 
