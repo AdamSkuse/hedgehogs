@@ -6,3 +6,5 @@ Workflow will make use of the workflow and approach taught in Brad Schiff's Git 
 
 In terms of personal development, the aim is to introduce myself to the process of developing a WordPress theme from scratch, and come up with a workflow that I can apply to subsequent theme development.
 
+## Resources consulted (not exhaustive)
+https://webdesign.tutsplus.com/tutorials/css-grid-layout-units-of-measurement-and-basic-keywords--cms-27259
