@@ -1,6 +1,5 @@
 /* Site Header */
 .site-header {
-  margin: 0;
-  margin-top: 0;
-  background-color: green;
+  padding: 30px;
+  background-color: #a79e84;
 }

@@ -1,2 +1,3 @@
-<div id="site-sidebar">This is my sidebar</div>
+<div class="sidebar">
 <?php dynamic_sidebar( 'mat-sidebar' ); ?>
+</div>

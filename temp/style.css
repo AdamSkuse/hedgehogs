@@ -371,7 +371,8 @@ template {
 body {
   font-family: 'Roboto', sans-serif;
   color: #333;
-  background-color: yellow;
+  background-color: white;
+  padding: 10px;
 }
 li {
   list-style: none;
@@ -380,11 +381,20 @@ li {
 h1 {
   margin-top: 0;
 }
+a {
+  text-decoration: none;
+  color: #333;
+}
+a:hover {
+  color: #dbac20;
+}
+a:visited {
+  color: pink;
+}
 /* Site Header */
 .site-header {
-  margin: 0;
-  margin-top: 0;
-  background-color: green;
+  padding: 30px;
+  background-color: #a79e84;
 }
 /* Site Footer */
 .site-footer {
@@ -410,8 +420,8 @@ h1 {
 /* Widgets Column */
 .widgets-column {
   width: 33%;
+  height: 100%;
   float: left;
-  background-color: #ccc;
 }
 /* Front Page Posts Grid */
 .posts-grid {
@@ -442,4 +452,8 @@ h1 {
 .post-6 {
   grid-column: 5;
   grid-row: 3;
+}
+.sidebar {
+  background-color: #7a3b2e;
+  height: 100%;
 }
