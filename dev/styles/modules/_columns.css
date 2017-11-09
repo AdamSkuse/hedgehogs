@@ -1,12 +1,12 @@
 /* Main Column */
 .main-column {
-  width: 66%;
+  width: 75%;
   float: right;
 }
 
 /* Widgets Column */
 .widgets-column {
-  width: 33%;
+  width: 25%;
   height: 100%;
   float: left;
 }

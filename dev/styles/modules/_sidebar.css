@@ -1,4 +1,10 @@
 .sidebar {
-  background-color: #7a3b2e;
-  height: 100%;
+  padding: 20px;
+}
+
+.sidebar li {
+  padding-bottom: 20px;
+}
+.sidebar .widget_text {
+  
 }

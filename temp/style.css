@@ -431,12 +431,12 @@ a:visited {
   }
 /* Main Column */
 .main-column {
-  width: 66%;
+  width: 75%;
   float: right;
 }
 /* Widgets Column */
 .widgets-column {
-  width: 33%;
+  width: 25%;
   height: 100%;
   float: left;
 }
@@ -471,6 +471,11 @@ a:visited {
   grid-row: 3;
 }
 .sidebar {
-  background-color: #7a3b2e;
-  height: 100%;
+  padding: 20px;
+}
+.sidebar li {
+  padding-bottom: 20px;
+}
+.sidebar .widget_text {
+  
 }
