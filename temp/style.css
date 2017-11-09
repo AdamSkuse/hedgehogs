@@ -380,6 +380,7 @@ li {
 /* prevent "margin collapsing" from causing a gap between the header and the top of the page */
 h1 {
   margin-top: 0;
+  margin-bottom: 0;
 }
 a {
   text-decoration: none;
@@ -391,11 +392,27 @@ a:hover {
 a:visited {
   color: pink;
 }
+.clear_child_floats:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 /* Site Header */
 .site-header {
-  padding: 30px;
-  background-color: #a79e84;
+  padding-bottom: 30px;
 }
+.site-header__title {
+    display: inline-block;
+    vertical-align: bottom;
+    padding-left: 30%;
+  }
+.site-header__logo {
+    display: inline-block;
+    vertical-align: bottom;
+    align: right;
+    height: 60px;
+    width: 60px;
+  }
 /* Site Footer */
 .site-footer {
   margin-top: 30px;

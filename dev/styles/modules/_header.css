@@ -1,5 +1,19 @@
 /* Site Header */
 .site-header {
-  padding: 30px;
-  background-color: #a79e84;
+  padding-bottom: 30px;
+
+  &__title {
+    display: inline-block;
+    vertical-align: bottom;
+    padding-left: 30%;
+  }
+
+  &__logo {
+    display: inline-block;
+    vertical-align: bottom;
+    align: right;
+    height: 60px;
+    width: 60px;
+  }
 }
+
