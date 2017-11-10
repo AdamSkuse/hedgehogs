@@ -18,15 +18,15 @@ h1, h2 {
 
 a {
   text-decoration: none;
-  color: $mainText;
+  color: $linkUnvisited;
 }
 
 a:hover {
-  color: #dbac20;
+  color: $linkHover;
 }
 
 a:visited {
-  color: #ffc0cb;
+  color: $linkVisited;
 }
 
 .clear_child_floats:after {

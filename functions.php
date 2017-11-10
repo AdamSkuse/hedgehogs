@@ -40,4 +40,14 @@ function hedgehog_custom_logo_setup() {
     );
     add_theme_support( 'custom-logo', $defaults );
 }
+
 add_action( 'after_setup_theme', 'hedgehog_custom_logo_setup' );
+
+function max_title_length( $title ) {
+  $max = 40;
+  if( strlen( $title ) > $max ) {
+    return substr( $title, 0, $max ). " &hellip;";
+  } else {
+  return $title;
+  }
+}

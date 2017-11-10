@@ -1,5 +1,5 @@
 <?php get_header() ?>
-
+<?php add_filter( 'the_title', 'max_title_length') ?>
 <div class="main-column">
 <?php if( have_posts() ) : ?>
 
@@ -25,7 +25,7 @@
 <?php else : ?>
 	<p>Oh No, there are no posts!</p>
 <?php endif ?>
-<p>See all posts ...</p>
+<div class="front-page__see-all-posts"><p>See all posts ...</p></div>
 </div>
 <div class="widgets-column">
   <?php get_sidebar() ?>

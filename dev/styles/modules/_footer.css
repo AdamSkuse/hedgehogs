@@ -2,11 +2,16 @@
 
 .site-footer {
   margin-top: 30px;
-  border-top: 2px solid #999;
   clear: right;
+  height: 80px;
+  background-color: $footerBackground;
+  color: $footerText;
 
   &__menu {
     text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
   }
   
   ul {
@@ -16,6 +21,18 @@
   li {
     display: inline-block;
     padding: 0 8px;
+  }
+
+  a {
+    color: $footerLink;
+  }
+
+  a:hover {
+    color: $footerLinkHover;
+  }
+
+  a:visited {
+    color: $footerLinkVisited;
   }
 }
 

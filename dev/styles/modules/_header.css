@@ -1,7 +1,9 @@
 /* Site Header */
 .site-header {
-  padding-bottom: 30px;
-
+  padding-bottom: 20px;
+  padding-left: 20px;
+  background-color: $headerBackground;
+  
   &__title {
     display: inline-block;
     vertical-align: bottom;
@@ -14,6 +16,17 @@
     align: right;
     height: 60px;
     width: 60px;
+  }
+
+  &__stripe-top {
+    background-color: $headerStripeTop;
+    min-height: 15px;
+  }
+
+  &__stripe-bottom{
+    background-color: $headerStripeBottom;
+    min-height: 10px;
+    margin-bottom: 10px;
   }
 }
 
