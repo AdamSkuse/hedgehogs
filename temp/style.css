@@ -378,7 +378,7 @@ li {
   list-style: none;
 }
 /* prevent "margin collapsing" from causing a gap between the header and the top of the page */
-h1 {
+h1, h2 {
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -390,7 +390,7 @@ a:hover {
   color: #dbac20;
 }
 a:visited {
-  color: pink;
+  color: #ffc0cb;
 }
 .clear_child_floats:after {
   content: "";
@@ -445,6 +445,14 @@ a:visited {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 40px;
+}
+.post-container {
+  padding: 15px;
+  border-left: solid 5px;
+  border-color: #b22222;
+  border-radius: 5px;
+}
+.post-content {
 }
 .post-1 {
 }

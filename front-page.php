@@ -10,8 +10,8 @@
   
   <section class="posts-grid">
   <?php while ($the_query -> have_posts()) : $the_query -> the_post(); ?>  
-    <div class="post-<?php echo $post_position ?>"><h2><a href='<?php the_permalink() ?>'><?php the_title() ?></a></h2>
-      <div class="content">
+    <div class="post-container post-<?php echo $post_position ?>"><h2><a href='<?php the_permalink() ?>'><?php the_title() ?></a></h2>
+      <div class="post-content">
         <?php the_excerpt() ?>
       </div>
     </div>
