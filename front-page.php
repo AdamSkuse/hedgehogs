@@ -13,7 +13,8 @@
     <div class="post-container post-<?php echo $post_position ?>"><h2><a href='<?php the_permalink() ?>'><?php the_title() ?></a></h2>
       <div class="post-content">
         <?php the_excerpt() ?>
-      </div>
+        <a href='<?php the_permalink() ?>'>Continue reading</a>   
+    </div>
     </div>
     <?php $post_position ++ ?>
   <?php 
