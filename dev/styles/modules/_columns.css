@@ -9,5 +9,14 @@
   width: 25%;
   height: 100%;
   float: left;
-  background-color: #393e41;
+  background-color: $sidebarBackground;
+  color: $sidebarText;
+
+  a {
+    color: $sidebarLink;
+  }
+
+  a:hover {
+    color: $sidebarLinkHover;  
+  }
 }

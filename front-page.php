@@ -25,7 +25,8 @@
 <?php else : ?>
 	<p>Oh No, there are no posts!</p>
 <?php endif ?>
-<div class="front-page__see-all-posts"><p>See all posts ...</p></div>
+<div class="front-page__see-all-posts"><a href="/wordpress/blog">See all posts ...</a></div>
+<div class="front-page__stripe"></div>
 </div>
 <div class="widgets-column">
   <?php get_sidebar() ?>

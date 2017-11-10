@@ -2,3 +2,8 @@
   padding-right: 20px;
   background-color: $headerBackground;
 }
+
+.front-page__stripe {
+  background-color: $headerStripeBottom;
+  min-height: 10px;
+}

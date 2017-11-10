@@ -370,6 +370,7 @@ template {
 /* Text */
 /* Header */
 /* Footer */
+/* Sidebar */
 body {
   font-family: 'Roboto', sans-serif;
   color: #393e41;
@@ -424,7 +425,6 @@ a:visited {
 .site-header__stripe-bottom{
     background-color: #b30000;
     min-height: 10px;
-    margin-bottom: 10px;
   }
 /* Site Footer */
 .site-footer {
@@ -468,7 +468,14 @@ a:visited {
   height: 100%;
   float: left;
   background-color: #393e41;
+  color: #d3d0cb;
 }
+.widgets-column a {
+    color: #d3d0cb;
+  }
+.widgets-column a:hover {
+    color: #fff;  
+  }
 /* Front Page Posts Grid */
 .posts-grid {
   display: grid;
@@ -504,4 +511,8 @@ a:visited {
 .front-page__see-all-posts {
   padding-right: 20px;
   background-color: #edae49;
+}
+.front-page__stripe {
+  background-color: #b30000;
+  min-height: 10px;
 }
