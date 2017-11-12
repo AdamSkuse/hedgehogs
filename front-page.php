@@ -1,7 +1,8 @@
 <?php get_header() ?>
 <?php add_filter( 'the_title', 'max_title_length') ?>
+
 <div class="main-column">
-<?php if( have_posts() ) : ?>
+  <?php if( have_posts() ) : ?>
 
   <?php $the_query = new WP_Query( 'posts_per_page=6' ); ?>
 
@@ -16,20 +17,21 @@
         <a href='<?php the_permalink() ?>'>Continue reading</a>   
     </div>
     </div>
-    <?php $post_position ++ ?>
+  <?php $post_position ++ ?>
   <?php 
   endwhile;
   wp_reset_postdata();
   ?>
   </section>
 
-<?php else : ?>
-	<p>Oh No, there are no posts!</p>
-<?php endif ?>
-<div class="front-page__see-all-posts"><a href="/wordpress/blog">See all posts ...</a></div>
-<div class="front-page__stripe"></div>
-</div>
+  <?php else : ?>
+    <p>Oh No, there are no posts!</p>
+  <?php endif ?>
+  <div class="site-header__stripe-bottom"></div>
+</div> <!-- end main-column div -->
+
 <div class="widgets-column">
   <?php get_sidebar() ?>
-</div>
+</div> <!--end widgets column -->
+
 <?php get_footer() ?>

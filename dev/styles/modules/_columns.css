@@ -2,6 +2,7 @@
 .main-column {
   width: 75%;
   float: right;
+  margin-bottom: 0;
 }
 
 /* Widgets Column */
@@ -11,6 +12,7 @@
   float: left;
   background-color: $sidebarBackground;
   color: $sidebarText;
+  margin-bottom: 0;
 
   a {
     color: $sidebarLink;

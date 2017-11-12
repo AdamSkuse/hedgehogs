@@ -2,7 +2,6 @@ body {
   font-family: 'Roboto', sans-serif;
   color: $mainText;
   background-color: white;
-  padding: 10px;
 }
 
 li {
@@ -29,8 +28,3 @@ a:visited {
   color: $linkVisited;
 }
 
-.clear_child_floats:after {
-  content: "";
-  display: table;
-  clear: both;
-}

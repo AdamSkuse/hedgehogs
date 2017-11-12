@@ -1,11 +1,11 @@
 /* Site Footer */
 
 .site-footer {
-  margin-top: 30px;
   clear: right;
   height: 80px;
   background-color: $footerBackground;
   color: $footerText;
+  margin-top: 0;
 
   &__menu {
     text-align: center;
