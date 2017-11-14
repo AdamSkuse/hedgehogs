@@ -7,3 +7,16 @@
   background-color: $stripeBottom;
   min-height: 10px;
 }
+
+.front-page__continue-link {
+  font-size: 0.75em;
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 0 20px;
+}
+
+.post-container {
+  position: relative;
+}
