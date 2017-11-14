@@ -521,3 +521,19 @@ a:visited {
   background-color: #b30000;
   min-height: 10px;
 }
+.post {
+  padding: 20px 60px 20px 40px;
+  line-height: 1.5;
+}
+.post__main-image {
+    border: solid 3px;
+    float: left;
+    margin: 5px 15px 5px 0;
+  }
+.post__back-link {
+    font-size: 0.75em;
+  }
+.post__info {
+    margin-top: 0;
+    font-size: 0.75em;
+  }

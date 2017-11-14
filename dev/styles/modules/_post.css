@@ -1,0 +1,19 @@
+.post {
+  padding: 20px 60px 20px 40px;
+  line-height: 1.5;
+
+  &__main-image {
+    border: solid 3px;
+    float: left;
+    margin: 5px 15px 5px 0;
+  }
+
+  &__back-link {
+    font-size: 0.75em;
+  }
+
+  &__info {
+    margin-top: 0;
+    font-size: 0.75em;
+  }
+}
