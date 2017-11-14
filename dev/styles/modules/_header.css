@@ -18,14 +18,5 @@
     width: 60px;
   }
 
-  &__stripe-top {
-    background-color: $headerStripeTop;
-    min-height: 15px;
-  }
-
-  &__stripe-bottom{
-    background-color: $headerStripeBottom;
-    min-height: 10px;
-  }
 }
 

@@ -19,5 +19,5 @@
   ?>
   <div class="site-header__title"><h1><a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a></h1></div>
 </header>
-  <div class="site-header__stripe-top"></div>
-  <div class="site-header__stripe-bottom"></div>
+  <div class="stripe--top"></div>
+  <div class="stripe--bottom"></div>

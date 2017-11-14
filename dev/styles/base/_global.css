@@ -1,7 +1,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: $mainText;
-  background-color: white;
+  background-color: $bodyBackground;
 }
 
 li {

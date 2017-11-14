@@ -1,18 +1,24 @@
+
+/*Grid containing the two columns (main-column and widgets-column) */
+.columns-grid {
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: 20% auto;
+}
+
 /* Main Column */
 .main-column {
-  width: 75%;
-  float: right;
-  margin-bottom: 0;
+  grid-column: 2;
+  grid-row: 1;
+  background-color: $mainColumnBackground;
 }
 
 /* Widgets Column */
 .widgets-column {
-  width: 25%;
-  height: 100%;
-  float: left;
+  grid-column: 1;
+  grid-row: 1;
   background-color: $sidebarBackground;
   color: $sidebarText;
-  margin-bottom: 0;
 
   a {
     color: $sidebarLink;

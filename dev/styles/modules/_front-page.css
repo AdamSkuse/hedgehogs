@@ -4,6 +4,6 @@
 }
 
 .front-page__stripe {
-  background-color: $headerStripeBottom;
+  background-color: $stripeBottom;
   min-height: 10px;
 }

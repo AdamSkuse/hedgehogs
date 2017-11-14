@@ -1,3 +1,6 @@
+/* Body */
+$bodyBackground: #edae49;
+
 /* Text */
 $mainText: #393e41;
 $linkUnvisited: #7e5620;
@@ -6,8 +9,6 @@ $linkVisited: #7e5620;
 
 /* Header */
 $headerBackground: #edae49;
-$headerStripeTop: #393e41;
-$headerStripeBottom: #b30000;
 $headerText: #7e5920;
 
 /* Footer */
@@ -17,6 +18,9 @@ $footerLink: #d3d0cb;
 $footerLinkHover: #fff;
 $footerLinkVisited: #d3d0cb;
 
+/* Main Column */
+$mainColumnBackground: #fff;
+
 /* Sidebar */
 $sidebarBackground: #393e41;
 $sidebarText: #d3d0cb;
@@ -24,5 +28,7 @@ $sidebarLink: #d3d0cb;
 $sidebarLinkHover: #fff;
 $sidebarLinkVisited: #d3d0cb;
 
-
+/* Stripes */
+$stripeTop: #393e41;
+$stripeBottom: #b30000;
 

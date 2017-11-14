@@ -1,0 +1,9 @@
+.stripe--top {
+  background-color: $stripeTop;
+  min-height: 15px;
+}
+
+.stripe--bottom {
+  background-color: $stripeBottom;
+  min-height: 10px;
+}

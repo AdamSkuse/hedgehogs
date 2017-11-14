@@ -1,7 +1,6 @@
 /* Site Footer */
 
 .site-footer {
-  clear: right;
   height: 80px;
   background-color: $footerBackground;
   color: $footerText;
@@ -16,11 +15,13 @@
   
   ul {
     padding: 0px;
+    margin: 0;
   }
 
   li {
     display: inline-block;
     padding: 0 8px;
+    margin: 0;
   }
 
   a {
