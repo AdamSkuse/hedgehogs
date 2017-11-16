@@ -450,23 +450,37 @@ a:visited {
   }
 /*Grid containing the two columns (main-column and widgets-column) */
 .columns-grid {
-  display: grid;
-  margin: 0 auto;
-  grid-template-columns: 20% auto;
+  margin: 0 auto;  
+  
 }
+@media (min-width: 800px) {
+.columns-grid {
+    display: grid;
+    grid-template-columns: 20% auto  
+  
+}
+  }
 /* Main Column */
 .main-column {
-  grid-column: 2;
-  grid-row: 1;
   background-color: #fff;
 }
+@media (min-width: 800px) {
+.main-column {
+    grid-column: 2;
+    grid-row: 1
+}
+  }
 /* Widgets Column */
 .widgets-column {
-  grid-column: 1;
-  grid-row: 1;
   background-color: #393e41;
   color: #d3d0cb;
 }
+@media (min-width: 800px) {
+.widgets-column {
+    grid-column: 1;
+    grid-row: 1
+}
+  }
 .widgets-column a {
     color: #d3d0cb;
   }
@@ -475,27 +489,17 @@ a:visited {
   }
 /* Front Page Posts Grid */
 .posts-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 45px 5px;
   padding: 20px;
 }
+@media (min-width: 800px) {
+.posts-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 45px 5px
+}
+  }
 .post-container {
   padding: 15px;
-}
-.post-content {
-}
-.post-1 {
-}
-.post-2 {
-}
-.post-3 {
-}
-.post-4 {
-}
-.post-5 {
-}
-.post-6 {
 }
 .sidebar {
   padding: 20px;

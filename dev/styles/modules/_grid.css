@@ -1,33 +1,13 @@
 /* Front Page Posts Grid */
 .posts-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 45px 5px;
   padding: 20px;
+  @mixin atMedium {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 45px 5px;
+  }
 }
 
 .post-container {
   padding: 15px;
-}
-
-.post-content {
-}
-
-
-.post-1 {
-}
-
-.post-2 {
-}
-
-.post-3 {
-}
-
-.post-4 {
-}
-
-.post-5 {
-}
-
-.post-6 {
 }

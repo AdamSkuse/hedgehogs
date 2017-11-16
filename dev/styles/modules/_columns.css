@@ -1,24 +1,31 @@
 
 /*Grid containing the two columns (main-column and widgets-column) */
 .columns-grid {
-  display: grid;
   margin: 0 auto;
-  grid-template-columns: 20% auto;
+  @mixin atMedium {
+    display: grid;
+    grid-template-columns: 20% auto;
+  }  
+  
 }
 
 /* Main Column */
 .main-column {
-  grid-column: 2;
-  grid-row: 1;
   background-color: $mainColumnBackground;
+  @mixin atMedium {
+    grid-column: 2;
+    grid-row: 1;
+  }
 }
 
 /* Widgets Column */
 .widgets-column {
-  grid-column: 1;
-  grid-row: 1;
   background-color: $sidebarBackground;
   color: $sidebarText;
+  @mixin atMedium {
+    grid-column: 1;
+    grid-row: 1;
+  }
 
   a {
     color: $sidebarLink;
