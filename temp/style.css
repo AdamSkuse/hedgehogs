@@ -549,3 +549,10 @@ a:visited {
     margin-top: 0;
     font-size: 0.75em;
   }
+.search-result {
+  padding: 20px 20px 0px 20px;
+  line-height: 1.5;
+}
+.nav-posts__prev, .nav-posts__next {
+    padding-left: 10px;
+  }

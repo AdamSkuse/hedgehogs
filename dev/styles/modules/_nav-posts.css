@@ -1,0 +1,5 @@
+.nav-posts {
+  &__prev, &__next {
+    padding-left: 10px;
+  }
+}

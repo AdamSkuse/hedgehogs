@@ -11,3 +11,5 @@
 @import "modules/_front-page";
 @import "modules/_stripes";
 @import "modules/_post";
+@import "modules/_page-blog";
+@import "modules/_nav-posts";
