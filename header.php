@@ -14,7 +14,7 @@
     $logo = wp_get_attachment_image_src( $custom_logo_id , 'full' );
 
     if ( has_custom_logo() ) {
-            echo '<img class="site-header__logo" src="'. esc_url( $logo[0] ) .'">';
+            echo '<a href="' . home_url() . '"><img class="site-header__logo" src="'. esc_url( $logo[0] ) .'"></a>';
     }
   ?>
   <div class="site-header__title"><h1><a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a></h1></div>
